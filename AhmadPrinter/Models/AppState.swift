@@ -34,12 +34,16 @@ class AppState: ObservableObject {
     }
 
     func addFiles(from urls: [URL]) {
+        print("🔵 [ADD] addFiles called with \(urls.count) URL(s): \(urls.map(\.path))")
         for url in urls {
+            print("🔵 [ADD] File exists: \(FileManager.default.fileExists(atPath: url.path)), readable: \(FileManager.default.isReadableFile(atPath: url.path))")
             let type = PrintFile.FileType.detect(url: url)
+            print("🔵 [ADD] Detected type: \(type) for \(url.lastPathComponent)")
             let file = PrintFile(name: url.lastPathComponent, date: Date(), fileURL: url, fileType: type)
             addFile(file)
             generateThumbnailAsync(for: url)
         }
+        print("🔵 [ADD] recentFiles count after add: \(recentFiles.count)")
     }
 
     private func generateThumbnailAsync(for url: URL) {
