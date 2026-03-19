@@ -99,6 +99,7 @@ struct DropZoneView: View {
                 }
             }
         }
+        .contentShape(Rectangle())
         .onDrop(of: [.fileURL], isTargeted: $isDragging) { providers in
             handleDrop(providers: providers)
             return true
@@ -107,19 +108,38 @@ struct DropZoneView: View {
 
     private func handleDrop(providers: [NSItemProvider]) {
         for provider in providers {
-            // Most reliable path for Finder file drags: load as file-url item
-            provider.loadItem(forTypeIdentifier: UTType.fileURL.identifier, options: nil) { item, _ in
-                var resolved: URL?
-                if let url = item as? URL {
-                    resolved = url
-                } else if let data = item as? Data {
-                    resolved = URL(dataRepresentation: data, relativeTo: nil)
-                } else if let str = item as? String {
-                    resolved = URL(string: str)
+            // Try loading as URL first (works in some macOS versions)
+            if provider.canLoadObject(ofClass: URL.self) {
+                _ = provider.loadObject(ofClass: URL.self) { url, _ in
+                    guard let url = url, url.isFileURL else { return }
+                    DispatchQueue.main.async {
+                        appState.addFiles(from: [url])
+                    }
                 }
-                guard let url = resolved else { return }
-                DispatchQueue.main.async {
-                    appState.addFiles(from: [url])
+            } else {
+                // Fallback: load raw item for file-url type identifier
+                provider.loadItem(forTypeIdentifier: UTType.fileURL.identifier, options: nil) { item, _ in
+                    var resolved: URL?
+                    if let url = item as? URL {
+                        resolved = url
+                    } else if let data = item as? Data {
+                        // Finder often sends file URLs as plist-encoded Data
+                        if let path = String(data: data, encoding: .utf8) {
+                            resolved = URL(fileURLWithPath: path)
+                        } else {
+                            resolved = URL(dataRepresentation: data, relativeTo: nil)
+                        }
+                    } else if let str = item as? String {
+                        if str.hasPrefix("/") {
+                            resolved = URL(fileURLWithPath: str)
+                        } else if str.hasPrefix("file://") {
+                            resolved = URL(string: str)
+                        }
+                    }
+                    guard let url = resolved else { return }
+                    DispatchQueue.main.async {
+                        appState.addFiles(from: [url])
+                    }
                 }
             }
         }

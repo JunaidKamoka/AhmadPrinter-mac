@@ -1,7 +1,7 @@
 import Foundation
 
 // MARK: - Field Model
-struct TemplateField: Identifiable, Codable {
+struct TemplateField: Identifiable, Codable, Equatable {
     var id = UUID()
     let key: String
     let label: String
@@ -25,7 +25,7 @@ struct TemplateField: Identifiable, Codable {
 }
 
 // MARK: - Section Model
-struct TemplateSection: Identifiable {
+struct TemplateSection: Identifiable, Equatable {
     let id = UUID()
     let title: String
     var fields: [TemplateField]
@@ -59,7 +59,7 @@ struct PrintTemplate: Identifiable, Equatable {
     }
 
     static func == (lhs: PrintTemplate, rhs: PrintTemplate) -> Bool {
-        lhs.id == rhs.id
+        lhs.id == rhs.id && lhs.sections == rhs.sections
     }
 
     func value(for key: String) -> String {
