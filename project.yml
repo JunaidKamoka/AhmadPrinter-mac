@@ -1,0 +1,45 @@
+name: AhmadPrinter
+
+options:
+  bundleIdPrefix: printer
+  deploymentTarget:
+    macOS: "14.0"
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+
+targets:
+  AhmadPrinter:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: AhmadPrinter
+        excludes:
+          - "Resources/**"
+      - path: AhmadPrinter/Resources/Assets.xcassets
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: printer.ahmad
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        INFOPLIST_KEY_NSPrintingUsageDescription: "Smart Printer needs access to print your documents."
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "Smart Printer accesses your Photos library to select images for printing."
+        INFOPLIST_KEY_CFBundleDisplayName: "Smart Printer"
+        INFOPLIST_KEY_CFBundleName: "Smart Printer"
+        CODE_SIGN_STYLE: Automatic
+        ENABLE_HARDENED_RUNTIME: YES
+        SWIFT_EMIT_LOC_STRINGS: YES
+        GENERATE_INFOPLIST_FILE: YES
+    entitlements:
+      path: AhmadPrinter/AhmadPrinter.entitlements
+      properties:
+        com.apple.security.app-sandbox: false
+        com.apple.security.files.user-selected.read-write: true
+        com.apple.security.print: true
+        com.apple.security.network.client: true

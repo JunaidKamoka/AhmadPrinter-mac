@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EAD57C402A0F945F98585F /* PrintFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7557C6E405C8A0F74AD7E71 /* PrintFile.swift */; };
+		27891BF88EB6268DC3F56B09 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D2D0F71CDB3708EFEAF25E /* DesignTokens.swift */; };
+		2A711DCD06D10D1F2AA20B79 /* FileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6DD8BC40891213D9D8CAC9 /* FileCardView.swift */; };
+		3C12DF95BFDA82FE98148061 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D5F58627D1DD2E7EED314D /* SettingsView.swift */; };
+		40179F66F70B6F462D5BDBF2 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7C4FA611FD4BEDE990478B /* PaywallView.swift */; };
+		4F73D4349B343D932F2F33C5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9913B9A8B1E05BD69229D2 /* HomeView.swift */; };
+		50AD543F839E6BB4223F203F /* AhmadPrinterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B5E75E7C2FE49A49E958D6 /* AhmadPrinterApp.swift */; };
+		67097990B8E5CA2A5066E48E /* TemplateFillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B896F7F40342D8D811185989 /* TemplateFillView.swift */; };
+		6C27003DCE4D775A6804F49F /* TemplateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E23BE48FDB2706A665C1DF /* TemplateCardView.swift */; };
+		7764402385E1B56221B012B0 /* TextPrintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD9CBB893854A6A8BFD99DB /* TextPrintView.swift */; };
+		78A6DAF548D83208F335D2DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61782619204F763DC161DA0F /* ContentView.swift */; };
+		7B746D916FA585F522EBD8E1 /* OCRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1E8A277E50BA09C39CB39A /* OCRManager.swift */; };
+		8068AFDC657FABC5AD00111C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08526241705521412A66888B /* AppState.swift */; };
+		8FD95BB283D6F3BB48948E21 /* PrintTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903DEBBFDCCDC8ACDEE6A25 /* PrintTemplate.swift */; };
+		93B0C3CB0001033CDEF07BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393D60B56CBF80A81B9D39C6 /* Assets.xcassets */; };
+		9E8C0FD2ECF6C4402428A647 /* TopNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1595C8E3D976250E53F93B /* TopNavigationBar.swift */; };
+		9ECF2AFE01D8A3EA3E09EA8A /* OCRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2478002B165EBE7416DD88 /* OCRView.swift */; };
+		AD025A977F03557FB10F903C /* FilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F4D843DAAC0A006DBB18BA /* FilesView.swift */; };
+		BDD9BF9EF0515380F74BFE60 /* PrintManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0FB54FE83ACC26FE63C04 /* PrintManager.swift */; };
+		C7A343736AED18171E9A4D84 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3817D8950BB34D6F039903B /* StoreKitManager.swift */; };
+		CFC45E59C7148FCB1C2B99D0 /* WebPrintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29931A3F139090289A8F665C /* WebPrintView.swift */; };
+		DA56212E7A0E256F6E9D2165 /* TemplatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B831EB3CDF09420AAD738 /* TemplatesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03D5F58627D1DD2E7EED314D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		08526241705521412A66888B /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		09E23BE48FDB2706A665C1DF /* TemplateCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateCardView.swift; sourceTree = "<group>"; };
+		12B5E75E7C2FE49A49E958D6 /* AhmadPrinterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhmadPrinterApp.swift; sourceTree = "<group>"; };
+		29931A3F139090289A8F665C /* WebPrintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPrintView.swift; sourceTree = "<group>"; };
+		34F4D843DAAC0A006DBB18BA /* FilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesView.swift; sourceTree = "<group>"; };
+		393D60B56CBF80A81B9D39C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4903DEBBFDCCDC8ACDEE6A25 /* PrintTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintTemplate.swift; sourceTree = "<group>"; };
+		5AD9CBB893854A6A8BFD99DB /* TextPrintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPrintView.swift; sourceTree = "<group>"; };
+		61782619204F763DC161DA0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6D7C4FA611FD4BEDE990478B /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		702B831EB3CDF09420AAD738 /* TemplatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesView.swift; sourceTree = "<group>"; };
+		79D2D0F71CDB3708EFEAF25E /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		8B1E8A277E50BA09C39CB39A /* OCRManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRManager.swift; sourceTree = "<group>"; };
+		8CB0FB54FE83ACC26FE63C04 /* PrintManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintManager.swift; sourceTree = "<group>"; };
+		8F6DD8BC40891213D9D8CAC9 /* FileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCardView.swift; sourceTree = "<group>"; };
+		B7557C6E405C8A0F74AD7E71 /* PrintFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintFile.swift; sourceTree = "<group>"; };
+		B896F7F40342D8D811185989 /* TemplateFillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateFillView.swift; sourceTree = "<group>"; };
+		BDCB6C8395F16CD825A9D185 /* AhmadPrinter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AhmadPrinter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D186DF5B7F07752EC0137CBA /* AhmadPrinter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AhmadPrinter.entitlements; sourceTree = "<group>"; };
+		D3817D8950BB34D6F039903B /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		DD9913B9A8B1E05BD69229D2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DF2478002B165EBE7416DD88 /* OCRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRView.swift; sourceTree = "<group>"; };
+		FC1595C8E3D976250E53F93B /* TopNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		001F74D469DE437FEF60680C = {
+			isa = PBXGroup;
+			children = (
+				4FE038CB363B2EF9AF5D05A2 /* AhmadPrinter */,
+				CFBACA5D8B0D1A316DBFD126 /* Resources */,
+				51E50EB41FC42BA3F5B2EE24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FE038CB363B2EF9AF5D05A2 /* AhmadPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				D186DF5B7F07752EC0137CBA /* AhmadPrinter.entitlements */,
+				12B5E75E7C2FE49A49E958D6 /* AhmadPrinterApp.swift */,
+				61782619204F763DC161DA0F /* ContentView.swift */,
+				57482CBFEEDED2C02BAC97C8 /* Components */,
+				8B52F14FD18906FDBCB90261 /* Managers */,
+				86F0697DB0A62B6B01BC3CD0 /* Models */,
+				78816450C8A25F9A6EA7C2FE /* Views */,
+			);
+			path = AhmadPrinter;
+			sourceTree = "<group>";
+		};
+		51E50EB41FC42BA3F5B2EE24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDCB6C8395F16CD825A9D185 /* AhmadPrinter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57482CBFEEDED2C02BAC97C8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				79D2D0F71CDB3708EFEAF25E /* DesignTokens.swift */,
+				8F6DD8BC40891213D9D8CAC9 /* FileCardView.swift */,
+				09E23BE48FDB2706A665C1DF /* TemplateCardView.swift */,
+				FC1595C8E3D976250E53F93B /* TopNavigationBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		78816450C8A25F9A6EA7C2FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34F4D843DAAC0A006DBB18BA /* FilesView.swift */,
+				DD9913B9A8B1E05BD69229D2 /* HomeView.swift */,
+				DF2478002B165EBE7416DD88 /* OCRView.swift */,
+				6D7C4FA611FD4BEDE990478B /* PaywallView.swift */,
+				03D5F58627D1DD2E7EED314D /* SettingsView.swift */,
+				B896F7F40342D8D811185989 /* TemplateFillView.swift */,
+				702B831EB3CDF09420AAD738 /* TemplatesView.swift */,
+				5AD9CBB893854A6A8BFD99DB /* TextPrintView.swift */,
+				29931A3F139090289A8F665C /* WebPrintView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		86F0697DB0A62B6B01BC3CD0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				08526241705521412A66888B /* AppState.swift */,
+				B7557C6E405C8A0F74AD7E71 /* PrintFile.swift */,
+				4903DEBBFDCCDC8ACDEE6A25 /* PrintTemplate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B52F14FD18906FDBCB90261 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8B1E8A277E50BA09C39CB39A /* OCRManager.swift */,
+				8CB0FB54FE83ACC26FE63C04 /* PrintManager.swift */,
+				D3817D8950BB34D6F039903B /* StoreKitManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CFBACA5D8B0D1A316DBFD126 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				393D60B56CBF80A81B9D39C6 /* Assets.xcassets */,
+			);
+			name = Resources;
+			path = AhmadPrinter/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9578BA5F41D407DA9612CAA5 /* AhmadPrinter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E0C4B49FE9AC3F28FEAB24 /* Build configuration list for PBXNativeTarget "AhmadPrinter" */;
+			buildPhases = (
+				E45A56159326E26DA5E07FD8 /* Sources */,
+				57B0788AFCA3811F3E6507FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AhmadPrinter;
+			packageProductDependencies = (
+			);
+			productName = AhmadPrinter;
+			productReference = BDCB6C8395F16CD825A9D185 /* AhmadPrinter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25EF0703587F1034EE96CB0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9578BA5F41D407DA9612CAA5 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8131A959D54A576F2CDDE654 /* Build configuration list for PBXProject "AhmadPrinter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 001F74D469DE437FEF60680C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9578BA5F41D407DA9612CAA5 /* AhmadPrinter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57B0788AFCA3811F3E6507FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B0C3CB0001033CDEF07BC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E45A56159326E26DA5E07FD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AD543F839E6BB4223F203F /* AhmadPrinterApp.swift in Sources */,
+				8068AFDC657FABC5AD00111C /* AppState.swift in Sources */,
+				78A6DAF548D83208F335D2DD /* ContentView.swift in Sources */,
+				27891BF88EB6268DC3F56B09 /* DesignTokens.swift in Sources */,
+				2A711DCD06D10D1F2AA20B79 /* FileCardView.swift in Sources */,
+				AD025A977F03557FB10F903C /* FilesView.swift in Sources */,
+				4F73D4349B343D932F2F33C5 /* HomeView.swift in Sources */,
+				7B746D916FA585F522EBD8E1 /* OCRManager.swift in Sources */,
+				9ECF2AFE01D8A3EA3E09EA8A /* OCRView.swift in Sources */,
+				40179F66F70B6F462D5BDBF2 /* PaywallView.swift in Sources */,
+				18EAD57C402A0F945F98585F /* PrintFile.swift in Sources */,
+				BDD9BF9EF0515380F74BFE60 /* PrintManager.swift in Sources */,
+				8FD95BB283D6F3BB48948E21 /* PrintTemplate.swift in Sources */,
+				3C12DF95BFDA82FE98148061 /* SettingsView.swift in Sources */,
+				C7A343736AED18171E9A4D84 /* StoreKitManager.swift in Sources */,
+				6C27003DCE4D775A6804F49F /* TemplateCardView.swift in Sources */,
+				67097990B8E5CA2A5066E48E /* TemplateFillView.swift in Sources */,
+				DA56212E7A0E256F6E9D2165 /* TemplatesView.swift in Sources */,
+				7764402385E1B56221B012B0 /* TextPrintView.swift in Sources */,
+				9E8C0FD2ECF6C4402428A647 /* TopNavigationBar.swift in Sources */,
+				CFC45E59C7148FCB1C2B99D0 /* WebPrintView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		20F8A849AD8170D2E2FB5A13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		348B9A8250A43EB63DDD8C8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AhmadPrinter/AhmadPrinter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smart Printer";
+				INFOPLIST_KEY_CFBundleName = "Smart Printer";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Smart Printer accesses your Photos library to select images for printing.";
+				INFOPLIST_KEY_NSPrintingUsageDescription = "Smart Printer needs access to print your documents.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = printer.ahmad;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		B0751D88FF93964B3F908362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		E07334418755BAAEFB46A994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AhmadPrinter/AhmadPrinter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smart Printer";
+				INFOPLIST_KEY_CFBundleName = "Smart Printer";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Smart Printer accesses your Photos library to select images for printing.";
+				INFOPLIST_KEY_NSPrintingUsageDescription = "Smart Printer needs access to print your documents.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = printer.ahmad;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37E0C4B49FE9AC3F28FEAB24 /* Build configuration list for PBXNativeTarget "AhmadPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348B9A8250A43EB63DDD8C8F /* Debug */,
+				E07334418755BAAEFB46A994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8131A959D54A576F2CDDE654 /* Build configuration list for PBXProject "AhmadPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F8A849AD8170D2E2FB5A13 /* Debug */,
+				B0751D88FF93964B3F908362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25EF0703587F1034EE96CB0D /* Project object */;
+}

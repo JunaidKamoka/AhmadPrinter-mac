@@ -1,0 +1,81 @@
+{
+  "identifier" : "SmartPrinter",
+  "nonConsumableProducts" : [],
+  "consumableProducts" : [],
+  "autoRenewableSubscriptions" : [
+    {
+      "adHocOffers" : [],
+      "displayPrice" : "2.99",
+      "familySharable" : false,
+      "groupNumber" : 1,
+      "introductoryOffer" : null,
+      "localizations" : [
+        {
+          "description" : "Weekly access to all Smart Printer Pro features.",
+          "displayName" : "Smart Printer Weekly",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "printer.ahmad.weekly",
+      "referenceName" : "Smart Printer Weekly",
+      "recurringSubscriptionPeriod" : "P1W",
+      "subscriptionGroupID" : "SmartPrinterPro"
+    },
+    {
+      "adHocOffers" : [],
+      "displayPrice" : "7.99",
+      "familySharable" : false,
+      "groupNumber" : 2,
+      "introductoryOffer" : null,
+      "localizations" : [
+        {
+          "description" : "Monthly access to all Smart Printer Pro features.",
+          "displayName" : "Smart Printer Monthly",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "printer.ahmad.monthly",
+      "referenceName" : "Smart Printer Monthly",
+      "recurringSubscriptionPeriod" : "P1M",
+      "subscriptionGroupID" : "SmartPrinterPro"
+    },
+    {
+      "adHocOffers" : [],
+      "displayPrice" : "39.99",
+      "familySharable" : false,
+      "groupNumber" : 3,
+      "introductoryOffer" : {
+        "offerIdentifier" : null,
+        "paymentMode" : "FREE_TRIAL",
+        "subscriptionPeriod" : "P3D"
+      },
+      "localizations" : [
+        {
+          "description" : "Yearly access to all Smart Printer Pro features. Includes 3-day free trial.",
+          "displayName" : "Smart Printer Yearly",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "printer.ahmad.yearly",
+      "referenceName" : "Smart Printer Yearly",
+      "recurringSubscriptionPeriod" : "P1Y",
+      "subscriptionGroupID" : "SmartPrinterPro"
+    }
+  ],
+  "subscriptionGroups" : [
+    {
+      "id" : "SmartPrinterPro",
+      "localizations" : [
+        {
+          "description" : "Full access to Smart Printer Pro features including unlimited printing, templates, and OCR.",
+          "displayName" : "Smart Printer Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "name" : "Smart Printer Pro"
+    }
+  ],
+  "version" : {
+    "formatVersion" : "2.0"
+  }
+}
